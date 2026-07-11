@@ -6,54 +6,6 @@
 # calculates calories burned per minute, gives each workout an intensity label, and prints a
 # short report for each workout.
 
-"""
-Test Case Outputs:
-
-1. Low intensity
-Input:
-Workout name: Yoga
-Duration: 45
-Calories: 180
-
-Result:
-Yoga | 45 min | 180 cal | 4.0 cal/min | Intensity: Low
-
-2. Moderate intensity
-Input:
-Workout name: Cycling
-Duration: 40
-Calories: 300
-
-Result:
-Cycling | 40 min | 300 cal | 7.5 cal/min | Intensity: Moderate
-
-3. High intensity
-Input:
-Workout name: Running
-Duration: 30
-Calories: 320
-
-Result:
-Running | 30 min | 320 cal | 10.7 cal/min | Intensity: High
-
-4. Boundary: exactly 5.0
-Input:
-Workout name: Walking
-Duration: 50
-Calories: 250
-
-Result:
-Walking | 50 min | 250 cal | 5.0 cal/min | Intensity: Moderate
-
-5. Boundary: exactly 10.0
-Input:
-Workout name: Swimming
-Duration: 20
-Calories: 200
-
-Result:
-Swimming | 20 min | 200 cal | 10.0 cal/min | Intensity: High
-"""
 
 
 # This function calculates calories burned per minute
