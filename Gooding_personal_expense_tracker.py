@@ -6,23 +6,6 @@ Description:
 This program saves personal expenses to a text file and displays
 all expenses in a simple table.
 
-Tier attempted: Base Level
-
-Testing results:
-1. First run with no expenses.txt file:
-   Passed - the program displayed "No expenses on record yet."
-
-2. Added two expenses, closed the program, and ran it again:
-   Passed - both saved expenses appeared on the second run.
-
-3. Entered a description longer than 30 characters:
-   Passed - the saved description was shortened to 30 characters.
-
-4. Entered 0 new expenses:
-   Passed - no new records were added and the existing records remained.
-
-5. Checked the table with short and long descriptions:
-   Passed - the columns remained aligned.
 """
 
 import os
